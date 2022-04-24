@@ -3,7 +3,7 @@
 >Greenshop has **no mobile** version, **only desktop**!
 
 ## Current tasks:
-- [x] Add responsive buttons, checkbars, optional menus.
+- [x] Add responsive buttons, checkbars, optional menu.
 - [ ] Add mobile version.
 - [ ] Add other pages.
 
