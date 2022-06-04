@@ -3,7 +3,7 @@
 >Greenshop has **no mobile** version, **only desktop**!
 
 ## Current tasks:
-- [x] Add responsive buttons, checkbars, optional menu.
+- [x] Add responsive buttons, checkbars, optional menus.
 - [ ] Add mobile version.
 - [ ] Add other pages.
 
@@ -11,4 +11,3 @@
 - SwiperJS(https://swiperjs.com/)
 - noUiSlider(https://refreshless.com/nouislider/)
 
-## Идем работать на завод
