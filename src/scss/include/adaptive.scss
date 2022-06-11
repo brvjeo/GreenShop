@@ -1,0 +1,28 @@
+@media(max-width:1024px){
+    .header{
+        &__nav-link:not(:last-child){
+            margin-right: 30px;
+        }
+    }
+}
+@media(max-width:900px){
+    .header{
+        &__nav,&__button-login,&__button-search{
+            display: none;
+        }
+        &__button-menu{
+            display: flex;
+        }
+        &__logo-wrapper,&__button-group{
+            padding: 10px;
+        }
+    }
+    .container{
+        width: 100%;
+    }
+}
+@media(max-width:600px){
+    .aside-menu{
+        width: 250px;
+    }
+}

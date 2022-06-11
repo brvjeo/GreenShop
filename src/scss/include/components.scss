@@ -1,0 +1,46 @@
+// burger button
+.line {
+    height: 2px;
+    background: var(--dark-gray);
+    border-radius: 7px;
+    transition: transform 0.2s;
+}
+.lines {
+    height: 20px;
+    width: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.up-line,
+.bottom-line {
+    width: 50%;
+}
+.bottom-line {
+    align-self: flex-end;
+}
+.mid-rotate {
+    transform: rotate(-45deg);
+}
+.bottom-rotate {
+    transform: translate(-2px, -7px) rotate(-135deg);
+}
+.up-rotate {
+    transform: translate(2px, 8px) rotate(45deg);
+}
+// close button
+.rotate-lines{
+    height: 20px;
+    width: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rotate-line1{
+    transform: rotate(45deg) translateY(1.7px);
+}
+.rotate-line2{
+    transform: rotate(-45deg) translateY(-1.3px);
+}
+
+
