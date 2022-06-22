@@ -319,6 +319,25 @@ body {
   display: flex;
 }
 
+.aside-menu__search-field {
+  width: 100%;
+  padding: 10px 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.aside-menu__search-input {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 25px;
+  border-radius: 6px;
+  border: 1px solid var(--black_alpha10);
+  outline: 1px solid var(--green);
+  padding: 5px;
+}
+
 .fade {
   position: absolute;
   left: 0;

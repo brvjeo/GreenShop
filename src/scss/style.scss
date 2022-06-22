@@ -144,6 +144,20 @@ body {
     &__button-close{
         display: flex;
     }
+    &__search-field{
+        width: 100%;
+        padding: 10px 7px;
+        display: flex;
+    }
+    &__search-input{
+        flex-grow: 1;
+        height: 25px;
+        border-radius: 6px;
+        border: 1px solid var(--black_alpha10);
+        outline:1px solid var(--green);
+        padding: 5px;
+    }
+    &__search-button{}
 }
 .fade {
     position: absolute;
